@@ -1,0 +1,2 @@
+# CTP_Server_Console
+用qt控制台应用程序做的存储CTP行情数据的项目
