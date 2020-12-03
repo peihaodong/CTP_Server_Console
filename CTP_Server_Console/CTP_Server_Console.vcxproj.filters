@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="CTP_API">
+      <UniqueIdentifier>{70e00117-963d-4614-b29d-b25a9559428a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis_API">
+      <UniqueIdentifier>{c02334f6-4652-4484-aab3-203253ac59b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="算法">
+      <UniqueIdentifier>{f48e2f2d-e17d-4a76-8dc4-c3404a507a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{a0e11647-91e5-4e24-9dad-df14a2e7f9eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtCustomMdSpi.cpp">
+      <Filter>CTP_API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\RedisAPI_v140\PhdRedis.cpp">
+      <Filter>Redis_API</Filter>
+    </ClCompile>
+    <ClCompile Include="CCsvData.cpp">
+      <Filter>算法</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFifteenMin.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFiveMin.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFourHour.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadOneDay.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadOneHour.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadOneMin.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadThirtyMin.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtCustomMdSpi.h">
+      <Filter>CTP_API</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadFifteenMin.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadFiveMin.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadFourHour.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadOneDay.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadOneHour.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadOneMin.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadThirtyMin.h">
+      <Filter>Thread</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdk\RedisAPI_v140\PhdRedis.h">
+      <Filter>Redis_API</Filter>
+    </ClInclude>
+    <ClInclude Include="CCsvData.h">
+      <Filter>算法</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
