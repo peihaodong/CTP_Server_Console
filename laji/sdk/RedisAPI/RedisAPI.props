@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <RedisDir>$(MSBuildThisFileDirectory)</RedisDir>
+    <RedisInc>$(RedisDir)inc\deps\hiredis;$(RedisDir)inc\src</RedisInc>
+    <RedisLib>$(RedisDir)lib-$(Platform)\$(Configuration)</RedisLib>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(RedisInc);$(IncludePath)</IncludePath>
+    <LibraryPath>$(RedisLib);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="RedisDir">
+      <Value>$(RedisDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="RedisInc">
+      <Value>$(RedisInc)</Value>
+    </BuildMacro>
+    <BuildMacro Include="RedisLib">
+      <Value>$(RedisLib)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

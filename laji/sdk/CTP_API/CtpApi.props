@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <CTP_Dir>$(MSBuildThisFileDirectory)</CTP_Dir>
+    <CTP_Inc>$(CTP_Dir)inc</CTP_Inc>
+    <CTP_Lib>$(CTP_Dir)lib-$(Platform)</CTP_Lib>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(CTP_Inc);$(IncludePath)</IncludePath>
+    <LibraryPath>$(CTP_Lib);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="CTP_Dir">
+      <Value>$(CTP_Dir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CTP_Inc">
+      <Value>$(CTP_Inc)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CTP_Lib">
+      <Value>$(CTP_Lib)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

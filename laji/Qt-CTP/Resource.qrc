@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Image/1分钟.png</file>
+        <file>Image/1小时.png</file>
+        <file>Image/3分钟.png</file>
+        <file>Image/5分钟.png</file>
+        <file>Image/15分钟.png</file>
+        <file>Image/CTP.png</file>
+        <file>Image/KLine.png</file>
+        <file>Image/QtChart.png</file>
+        <file>Image/TimeSharing.png</file>
+        <file>Image/报价.png</file>
+        <file>Image/日.png</file>
+        <file>Image/月.png</file>
+        <file>Image/周.png</file>
+    </qresource>
+</RCC>
