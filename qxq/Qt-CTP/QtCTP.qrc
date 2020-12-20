@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="QtCTP"/>
+  <qresource prefix="/">
+    <file>Image/KLine.png</file>
+    <file>Image/TimeSharing.png</file>
+  </qresource>
+</RCC>

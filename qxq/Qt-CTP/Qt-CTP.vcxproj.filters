@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QtCTP.cpp">
+      <Filter>主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="QtCustomMdSpi.cpp">
+      <Filter>Market_CTP</Filter>
+    </ClCompile>
+    <ClCompile Include="TickToKlineHelper.cpp">
+      <Filter>Market_CTP</Filter>
+    </ClCompile>
+    <ClCompile Include="qcustomplot.cpp">
+      <Filter>QCustomPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="QtChart.cpp">
+      <Filter>QtChart</Filter>
+    </ClCompile>
+    <ClCompile Include="PhdOperExcel.cpp">
+      <Filter>excel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\RedisAPI\PhdRedis.cpp">
+      <Filter>Redis</Filter>
+    </ClCompile>
+    <ClCompile Include="QtSmoothCurveGenerator.cpp">
+      <Filter>QCustomPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="XxwCustomPlot.cpp">
+      <Filter>Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="XxwTracer.cpp">
+      <Filter>Mouse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtCTP.h">
+      <Filter>主界面</Filter>
+    </QtMoc>
+    <QtMoc Include="QtCustomMdSpi.h">
+      <Filter>Market_CTP</Filter>
+    </QtMoc>
+    <QtMoc Include="qcustomplot.h">
+      <Filter>QCustomPlot</Filter>
+    </QtMoc>
+    <QtMoc Include="QtChart.h">
+      <Filter>QtChart</Filter>
+    </QtMoc>
+    <QtMoc Include="XxwCustomPlot.h">
+      <Filter>Mouse</Filter>
+    </QtMoc>
+    <QtMoc Include="XxwTracer.h">
+      <Filter>Mouse</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QtCTP.qrc" />
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="CTP接口">
+      <UniqueIdentifier>{f5606965-213b-486d-984d-3ecd2065245a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Market_CTP">
+      <UniqueIdentifier>{781c039b-c6fe-4b97-bbec-8c2c0f232ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主界面">
+      <UniqueIdentifier>{0a36fb10-6aaf-43a2-9d02-323b48e56b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QCustomPlot">
+      <UniqueIdentifier>{ca16293d-8159-4253-9ae3-65a532c70be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="excel">
+      <UniqueIdentifier>{08dc8753-47b3-4d53-851a-67e2b05e3e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="QtChart">
+      <UniqueIdentifier>{496ceda4-0bf5-439d-a954-910ad41a45c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouse">
+      <UniqueIdentifier>{0e66376d-2295-4c1e-af33-e4ce8499ed5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis">
+      <UniqueIdentifier>{a2f2aa0b-bb14-4f73-ad85-111d00004d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyEvent">
+      <UniqueIdentifier>{b3d11119-b140-4c45-b4d4-d123f70b69e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdk\CTP_API\inc\ThostFtdcMdApi.h">
+      <Filter>CTP接口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\CTP_API\inc\ThostFtdcTraderApi.h">
+      <Filter>CTP接口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\CTP_API\inc\ThostFtdcUserApiDataType.h">
+      <Filter>CTP接口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\CTP_API\inc\ThostFtdcUserApiStruct.h">
+      <Filter>CTP接口</Filter>
+    </ClInclude>
+    <ClInclude Include="TickToKlineHelper.h">
+      <Filter>Market_CTP</Filter>
+    </ClInclude>
+    <ClInclude Include="PhdOperExcel.h">
+      <Filter>excel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\RedisAPI\PhdRedis.h">
+      <Filter>Redis</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtSmoothCurveGenerator.h">
+      <Filter>QCustomPlot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QtCTP.ui">
+      <Filter>主界面</Filter>
+    </QtUic>
+    <QtUic Include="QtChart.ui">
+      <Filter>QtChart</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Qt-CTP.pro" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Qt-CTP.rc" />
+  </ItemGroup>
+</Project>
